@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f3"
+    android:orientation="vertical"
+    android:layout_marginBottom="50dp">
+
+   <!-- <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:layout_marginLeft="40dp"/>
+
+    </android.support.v7.widget.Toolbar>-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="26dp"
+                    android:layout_marginTop="25dp"
+                    android:src="@drawable/profile_image"
+                    app:civ_border_color="#38b5f2"
+                    app:civ_border_width="1dp" />
+
+                <TextView
+                    android:id="@+id/TxtView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_toRightOf="@+id/profile_image"
+                    android:text="Muhammad Azraqi Saputra"
+                    android:textColor="#000000"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="right|bottom"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="7.3dp"
+                        android:background="@drawable/small_cicle" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:id="@+id/half_circle"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/half_circle" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:paddingLeft="14.5dp">
+
+                <View
+                    android:layout_width="5.6dp"
+                    android:layout_height="225dp"
+                    android:background="#38b5f2" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="35.6dp"
+                    android:background="@drawable/rectangle">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="225dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginRight="19dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20.3dp"
+                            android:gravity="center_horizontal"
+                            android:text="About Me"
+                            android:textColor="#333232"
+                            android:textSize="13.7sp" />
+
+                        <TextView
+                            android:id="@+id/TxtView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Saya adalah orang yang senang dengan main game telah berbagai game saya mainkan dan saya selesaikan. Saya juga senang nongkrong sambil menikmati kopi dan berbincang ringan dengan rekan-rekan. Selain itu saya dikenal dengan orang yang mudah bersosialisasi dan enak di ajak ngobrol dan pendengar yang baik. Saya adalah seseorang yang bisa dengan cepat dan tepat dalam mengambil keputusan."
+                            android:textAlignment="center"
+                            android:textColor="@color/blue_500"
+                            android:textSize="12.3dp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:paddingLeft="14.5dp">
+
+                <View
+                    android:layout_width="5.6dp"
+                    android:layout_height="365dp"
+                    android:background="#38b5f2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="460dp"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="35.6dp"
+                    android:background="@drawable/white_cueve_bg">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginRight="19dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20.3dp"
+                            android:gravity="center_horizontal"
+                            android:text="@string/contact"
+                            android:textColor="#333232"
+                            android:textSize="13.7sp" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/imgPhone"
+                                android:layout_width="25.8dp"
+                                android:layout_height="25.8dp"
+                                android:layout_marginTop="20.3dp"
+                                android:background="@drawable/ic_whatsapp" />
+
+                            <TextView
+                                android:id="@+id/txtPhone"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10.3dp"
+                                android:layout_marginTop="20.3dp"
+                                android:layout_toRightOf="@+id/imgPhone"
+                                android:text="+62895372696068"
+                                android:textColor="@color/green" />
+
+                            <TextView
+                                android:id="@+id/imgEmail"
+                                android:layout_width="25.8dp"
+                                android:layout_height="25.8dp"
+                                android:layout_below="@id/imgPhone"
+                                android:layout_marginTop="12.3dp"
+                                android:background="@drawable/ic_gmail" />
+
+                            <TextView
+                                android:id="@+id/txtEmail"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/imgPhone"
+                                android:layout_marginLeft="10.3dp"
+                                android:layout_marginTop="12.3dp"
+                                android:layout_toRightOf="@+id/imgEmail"
+                                android:text="azraqi99@mahasiswa.unikom.ac.id"
+                                android:textColor="@color/red" />
+
+                            <TextView
+                                android:id="@+id/imgInstagram"
+                                android:layout_width="25.8dp"
+                                android:layout_height="25.8dp"
+                                android:layout_below="@id/imgEmail"
+                                android:layout_marginTop="12.3dp"
+                                android:background="@drawable/ic_instagram" />
+
+                            <TextView
+                                android:id="@+id/txtInstagram"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/imgEmail"
+                                android:layout_marginLeft="10.3dp"
+                                android:layout_marginTop="12.3dp"
+                                android:layout_toRightOf="@+id/imgInstagram"
+                                android:text="Azraqi Saputra"
+                                android:textColor="@color/deep_purple_500" />
+
+                            <TextView
+                                android:id="@+id/imgFacebook"
+                                android:layout_width="25.8dp"
+                                android:layout_height="25.8dp"
+                                android:layout_below="@id/imgInstagram"
+                                android:layout_marginTop="12.3dp"
+                                android:background="@drawable/ic_facebook" />
+
+                            <TextView
+                                android:id="@+id/txtFacebook"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/imgInstagram"
+                                android:layout_marginLeft="10.3dp"
+                                android:layout_marginTop="12.3dp"
+                                android:layout_toRightOf="@+id/imgFacebook"
+                                android:text="Azraqi Saputra"
+                                android:textColor="@color/light_blue_500" />
+
+                        </RelativeLayout>
+
+                        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                            xmlns:tools="http://schemas.android.com/tools"
+                            android:id="@+id/map"
+                            android:name="com.google.android.gms.maps.SupportMapFragment"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_marginTop="10dp"
+                            tools:context="com.example.mapwithmarker.MapsMarkerActivity" />
+
+                        <FrameLayout
+                            android:layout_width="50.7dp"
+                            android:layout_height="50.3dp"
+                            android:layout_gravity="bottom|right"
+                            android:layout_marginTop="35.8dp"
+                            android:background="@drawable/white_hexagone">
+
+                            <ImageView
+                                android:id="@+id/kalibrasi"
+                                android:layout_width="30.7dp"
+                                android:layout_height="30.3dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/ic_baseline_my_location_24px" />
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_width="90dp"
+                android:layout_height="41dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="right"
+                android:layout_marginTop="20.3dp"
+                android:layout_marginBottom="16.7dp"
+                android:background="@drawable/half_blue_roundshape"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/about"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="About"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

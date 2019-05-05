@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Aplikasi Biodata</string>
+
+    <string name="ob_header1">WELCOME TO MY APPLICATION</string>
+    <string name="ob_header2">APPLICATION BIODATA</string>
+    <string name="ob_header3">SIMPLE DESIGN</string>
+
+    <string name="ob_desc1">Application about someone</string>
+    <string name="ob_desc2">The Application explains biodsata</string>
+    <string name="ob_desc3">Easy use and simple</string>
+
+    <string name="home">Home</string>
+    <string name="daily">Daily</string>
+    <string name="gallery">Gallery</string>
+    <string name="favorite">Favorite</string>
+    <string name="profile">Profile</string>
+
+    <string name="contact">Contact and Social Media</string>
+    <string name="googleMapsKey">AIzaSyCEX7A2cinrxiDr1s2TDcAhsbxUMG9dCeA</string>
+
+</resources>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="130dp"
+                android:layout_height="10dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"/>
+
+            <RelativeLayout
+                android:id="@+id/rl1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/profile"
+                    app:civ_border_width="1dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginLeft="26dp"
+                    app:civ_border_color="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/TxtView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rizki Muhamad Fauzi"
+                    android:layout_toRightOf="@+id/profile_image"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="55dp"
+                    android:textSize="20sp"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Heykiiw@email.unikom.ac.id"
+                    android:layout_below="@+id/TxtView1"
+                    android:layout_toRightOf="@id/profile_image"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="@color/colorPrimary"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/rl1"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About Me"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/colorBlack"/>
+
+                <View
+                    android:id="@+id/view1"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/colorPrimary"
+                    android:layout_below="@id/text2"/>
+
+                <TextView
+                    android:id="@+id/TxtView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view1"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:textAlignment="center"
+                    android:text="Saya adalah orang yang terbiasa bersosialisasi, bertemu dengan berkerja sama dengan orang baru tidak menjadi masalah bagi saya. Selain itu saya dikenal sebagai seorang pendengar yang baik bukan hanya bagi rekan-rekan namun juga rekanan.
+Saya adalah seseorang yang bisa mengambil keputusan tepat bahkan saat dalam tekanan. Setiap pekerjaan yang ada selalu saya kerjakan dengan detail dan selesai tepat waktu."/>
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Interest"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/TxtView4"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/colorBlack"/>
+
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/colorPrimary"
+                    android:layout_below="@id/text3"/>
+
+                <TextView
+                    android:id="@+id/hobby"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hobby       : Video Games, Playing Games, Sports and Exercises,
+                     Music, Cooking"
+                    android:textSize="10dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/view2"
+                    android:textColor="@color/colorNavAccentUnselected"/>
+
+                <TextView
+                    android:id="@+id/makes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Makes       : Jamur ,Barley, Kurma, Buah Ara, Anggur, Madu, Melon"
+                    android:textSize="10dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/hobby"
+                    android:textColor="@color/colorNavAccentUnselected"/>
+
+                <TextView
+                    android:id="@+id/mikes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mikes        :  Susu, Air Putih, Kopi, Teh, Jus buah"
+                    android:textSize="10dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/makes"
+                    android:textColor="@color/colorNavAccentUnselected"/>
+
+                <TextView
+                    android:id="@+id/interest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Interest     : hidup bahagia dunia akhirat"
+                    android:textSize="10dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/mikes"
+                    android:textColor="@color/colorNavAccentUnselected"/>
+
+                <TextView
+                    android:id="@+id/citacita"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cita - Cita  : Menjadi orang kaya dan ahli syurga, bahagia dunia akhirat"
+                    android:textSize="10dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/interest"
+                    android:textColor="@color/colorNavAccentUnselected"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
+

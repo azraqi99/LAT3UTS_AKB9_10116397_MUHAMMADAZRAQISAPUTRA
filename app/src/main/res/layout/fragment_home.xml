@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="130dp"
+                android:layout_height="10dp"
+                android:background="@color/blue_500"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"/>
+
+            <RelativeLayout
+                android:id="@+id/rl1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/profile_image"
+                    app:civ_border_width="1dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginLeft="26dp"
+                    app:civ_border_color="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/TxtView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Muhammad Azraqi Saputra"
+                    android:layout_toRightOf="@+id/profile_image"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="55dp"
+                    android:textSize="20sp"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Azraqi99@mahasiswa.unikom.ac.id"
+                    android:layout_below="@+id/TxtView1"
+                    android:layout_toRightOf="@id/profile_image"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="@color/colorBlack"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/rl1"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About Me"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/colorBlack"/>
+
+                <View
+                    android:id="@+id/view1"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/blue_500"
+                    android:layout_below="@id/text2"/>
+
+                <TextView
+                    android:id="@+id/TxtView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view1"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/blue_500"
+                    android:text="Saya adalah orang yang senang dengan main game telah berbagai game saya mainkan dan saya selesaikan. Saya juga senang nongkrong sambil menikmati kopi dan berbincang ringan dengan rekan-rekan. Selain itu saya dikenal dengan orang yang mudah bersosialisasi dan enak di ajak ngobrol dan pendengar yang baik. Saya adalah seseorang yang bisa dengan cepat dan tepat dalam mengambil keputusan."/>
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Interest"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/TxtView4"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/colorBlack"/>
+
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/blue_500"
+                    android:layout_below="@id/text3"/>
+
+                <TextView
+                    android:id="@+id/hobby"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hobby       : Playing Video Games , Watching , and Sleep"
+                    android:textSize="10dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/view2"
+                    android:textColor="@color/blue_500"/>
+
+                <TextView
+                    android:id="@+id/makes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Makes       : anything that can be eaten"
+                    android:textSize="10dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/hobby"
+                    android:textColor="@color/blue_500"/>
+
+                <TextView
+                    android:id="@+id/mikes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mikes        : anything that can be drink"
+                    android:textSize="10dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/makes"
+                    android:textColor="@color/blue_500"/>
+
+                <TextView
+                    android:id="@+id/interest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Interest     : hidup bahagia dunia akhirat"
+                    android:textSize="10dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/mikes"
+                    android:textColor="@color/blue_500"/>
+
+                <TextView
+                    android:id="@+id/citacita"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cita - Cita  : Menjadi orang berguna dan sukses"
+                    android:textSize="10dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/interest"
+                    android:textColor="@color/blue_500"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
+
